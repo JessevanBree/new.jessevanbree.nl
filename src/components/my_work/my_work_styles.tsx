@@ -21,11 +21,11 @@ export const WorkContainer = styled(Link)`
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
   width: 35%;
   height: 80%;
   margin: 0px 25px;
   padding: 5px;
+  text-align: center;
   text-decoration: none;
   border: 3px solid ${({theme}) => theme.colors.white};
   color: ${({theme}) => theme.colors.white};
