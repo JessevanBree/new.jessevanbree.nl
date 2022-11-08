@@ -8,13 +8,13 @@ function Footer({}: Props) {
     <FooterContainer>
       <LinkList>
         <LinkListItem>
-          <LinkListLink href="https://github.com/JessevanBree">Github</LinkListLink>
+          <LinkListLink target="_blank" rel="noopener noreferrer" href="https://github.com/JessevanBree">Github</LinkListLink>
         </LinkListItem>
         <LinkListItem>
           <LinkListLink href="mailto:jessevanbree@live.nl">E-mail</LinkListLink>
         </LinkListItem>
         <LinkListItem>
-          <LinkListLink href="https://www.linkedin.com/in/jessevanbree/">LinkedIn</LinkListLink>
+          <LinkListLink target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/jessevanbree/">LinkedIn</LinkListLink>
         </LinkListItem>
       </LinkList>
       <FootNote>©2022</FootNote>
