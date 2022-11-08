@@ -1,7 +1,7 @@
 import React from "react";
 import About from "../about";
 import Experience from "../experience";
-import Reference from "../reference";
+import Reference from "../my_work";
 import { BodyContainer } from "./body_styles";
 
 type Props = {};
