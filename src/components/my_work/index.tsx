@@ -14,9 +14,9 @@ type Props = {};
 
 function MyWork({}: Props) {
   return (
-    <Segment colorId="black" textColorId="white">
+    <Segment id="MyWork" colorId="black" textColorId="white">
       <Title>My work</Title>
-      <WorksContainer id="MyWork">
+      <WorksContainer>
         <WorkContainer
           target="_blank"
           href="https://vtuber-soundboard.nl/"

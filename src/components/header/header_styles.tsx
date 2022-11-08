@@ -31,3 +31,13 @@ export const HeaderLogo = styled.img`
     left: unset;
   }
 `
+
+export const ImageSource = styled.p`
+  position: absolute;
+  bottom: 0px;
+  right: 16px;
+  font-size: 8px;
+  @media (max-width: 768px) {
+    right: unset;
+  }
+`

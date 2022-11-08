@@ -1,5 +1,5 @@
 import React from 'react'
-import { HeaderContainer, HeaderImage, HeaderLogo } from './header_styles'
+import { HeaderContainer, HeaderImage, HeaderLogo, ImageSource } from './header_styles'
 
 type Props = {}
 
@@ -12,6 +12,7 @@ function Header({}: Props) {
         title='Photo by Mads Schmidt Rasmussen on Unsplash'
         alt="Header photo of a treetops in the fog"
       />
+      <ImageSource>Photo by Mads Schmidt Rasmussen on Unsplash</ImageSource>
     </HeaderContainer>
   )
 }
