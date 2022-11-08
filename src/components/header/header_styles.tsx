@@ -22,8 +22,8 @@ export const HeaderImage = styled.img`
 
 export const HeaderLogo = styled.img`
   position: absolute;
-  top: 16px;
-  left: 16px;
+  top: 24px;
+  left: 24px;
   width: 240px;
   height: 78px;
   

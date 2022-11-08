@@ -3,7 +3,6 @@ import styled from 'styled-components'
 type SegmentProps = {
   colorId: string;
   textColorId?: string;
-  rotation: string;
 }
 
 export const Segment = styled.div<SegmentProps>`
@@ -13,11 +12,9 @@ export const Segment = styled.div<SegmentProps>`
   align-items: center;
   width: 100%;
   height: 600px;
-  padding: 15px 0px;
 
   background-color: ${({theme, colorId}) => theme.colors[colorId]};
   ${({theme, textColorId}) => textColorId ? `color: ${theme.colors[textColorId]};` : null}
-  // transform: rotate(${({rotation}) => rotation});
 `
 
 export const DefaultTextTitle = styled.h1`

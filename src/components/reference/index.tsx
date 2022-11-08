@@ -6,7 +6,7 @@ type Props = {}
 
 function Reference({}: Props) {
   return (
-    <Segment colorId="black" textColorId="white" rotation="1deg">
+    <Segment colorId="black" textColorId="white">
       <Title>My work</Title>
       <TextArea>123</TextArea>
     </Segment>

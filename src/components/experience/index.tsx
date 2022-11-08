@@ -6,7 +6,7 @@ type Props = {}
 
 function Experience({}: Props) {
   return (
-    <Segment colorId="white" rotation="1deg">
+    <Segment colorId="white">
       <Title>Experience</Title>
       <TextArea>123</TextArea>
     </Segment>

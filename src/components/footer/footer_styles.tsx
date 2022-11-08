@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import styled from 'styled-components'
 
 export const FooterContainer = styled.div`
@@ -26,12 +27,20 @@ export const LinkListItem = styled.li`
   flex:1;
 `
 
-export const LinkListLink = styled.a``
+export const LinkListLink = styled(Link)`
+  color: ${({theme}) => theme.colors.black};
+  text-decoration: none;
 
-export const CreatedWith = styled.p`
+  &:hover {
+    color: ${({theme}) => theme.colors.gray};
+  }
+`
+
+export const FootNote = styled.p`
   position: absolute;
   bottom: 4px;
-  font-size: 8px;
+  right: 16px;
+  font-size: 10px;
 
   @media (max-width: 768px) {
     right: unset;

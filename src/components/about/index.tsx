@@ -6,7 +6,7 @@ type Props = {}
 
 function About({}: Props) {
   return (
-    <Segment colorId="black" textColorId="white" rotation="1deg">
+    <Segment colorId="black" textColorId="white">
       <Title>About me</Title>
       <TextArea>123</TextArea>
     </Segment>

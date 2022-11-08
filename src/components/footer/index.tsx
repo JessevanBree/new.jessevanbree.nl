@@ -1,5 +1,5 @@
 import React from 'react'
-import { FooterContainer, LinkList, LinkListItem, CreatedWith, LinkListLink } from './footer_styles'
+import { FooterContainer, LinkList, LinkListItem, FootNote, LinkListLink } from './footer_styles'
 
 type Props = {}
 
@@ -8,16 +8,16 @@ function Footer({}: Props) {
     <FooterContainer>
       <LinkList>
         <LinkListItem>
-          <LinkListLink>Github</LinkListLink>
+          <LinkListLink href="https://github.com/JessevanBree">Github</LinkListLink>
         </LinkListItem>
         <LinkListItem>
-          <LinkListLink>E-mail</LinkListLink>
+          <LinkListLink href="mailto:jessevanbree@live.nl">E-mail</LinkListLink>
         </LinkListItem>
         <LinkListItem>
-          <LinkListLink>LinkedIn</LinkListLink>
+          <LinkListLink href="https://www.linkedin.com/in/jessevanbree/">LinkedIn</LinkListLink>
         </LinkListItem>
       </LinkList>
-      <CreatedWith>Made using Next.JS</CreatedWith>
+      <FootNote>©2022</FootNote>
     </FooterContainer>
   )
 }
