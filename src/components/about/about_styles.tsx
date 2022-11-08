@@ -9,6 +9,10 @@ export const Title = styled(DefaultTextTitle)``
 export const TextArea = styled(DefaultTextArea)`
   width: 50%;
   margin: 15px 0px;
+
+  @media (max-width: 768px) {
+    width: 70%;
+  }
 `
 
 export const TextDecoration = styled.span<TextDecorationProps>`
