@@ -17,7 +17,7 @@ function About({}: Props) {
         Aside from web development I have an interest in PC hardware and like to be up-to-date with hardware news.
       </TextArea>
       <TextArea>
-        In my free time I like to spend my time watching sports, movies, series and listening to music.
+        In my free time I like to spend my time watching <TextDecoration colorId="blue">sports, movies, series, reading and listening to music</TextDecoration>.
       </TextArea>
     </Segment>
   )
