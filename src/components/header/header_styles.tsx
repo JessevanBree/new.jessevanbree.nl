@@ -37,6 +37,7 @@ export const ImageSource = styled.p`
   bottom: 0px;
   right: 16px;
   font-size: 8px;
+  
   @media (max-width: 768px) {
     right: unset;
   }
