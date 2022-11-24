@@ -26,7 +26,7 @@ export const Segment = styled.div<SegmentProps>`
   }
 `
 
-export const DefaultTextTitle = styled.h1`
+export const DefaultTextTitle = styled.h2`
   margin: 15px 0px;
   font-size: 50px;
 `
