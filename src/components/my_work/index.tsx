@@ -19,7 +19,7 @@ function MyWork({}: Props) {
       <WorksContainer>
         <WorkContainer
           target="_blank"
-          href="https://vtuber-soundboard.nl/"
+          href="https://soundboard.jessevanbree.nl/"
           rel="noopener noreferrer"
         >
           <WorkTitle>Vtuber-soundboard</WorkTitle>
