@@ -19,7 +19,7 @@ function About({}: Props) {
       <TextArea>
         My favourite pastimes are listening to <TextDecoration colorId="purple">Music</TextDecoration>, 
         watching <TextDecoration colorId="purple">Movies, Shows, Livestreams and (E)sports, </TextDecoration> 
-        learning about various skills like <TextDecoration colorId="purple">Photo / Video editing, Japanese </TextDecoration>  
+        learning about various skills like <TextDecoration colorId="purple">Photo / Video editing, Japanese, Cooking </TextDecoration>  
         and occasionally I like to read a <TextDecoration colorId="purple">Book</TextDecoration> that interest me.
       </TextArea>
     </Segment>
