@@ -17,9 +17,10 @@ function About({}: Props) {
         Aside from web development I have an interest in PC hardware and like to be up-to-date with hardware news.
       </TextArea>
       <TextArea>
-        My favourite pastimes are listening to <TextDecoration colorId="purple">music</TextDecoration>, 
-        watching <TextDecoration colorId="purple">movies, shows and sports </TextDecoration> 
-        and occasionally I like to read <TextDecoration colorId="purple">books</TextDecoration> that interest me.
+        My favourite pastimes are listening to <TextDecoration colorId="purple">Music</TextDecoration>, 
+        watching <TextDecoration colorId="purple">Movies, Shows, Livestreams and (E)sports, </TextDecoration> 
+        learning about various skills like <TextDecoration colorId="purple">Photo / Video editing, Japanese </TextDecoration>  
+        and occasionally I like to read a <TextDecoration colorId="purple">Book</TextDecoration> that interest me.
       </TextArea>
     </Segment>
   )
